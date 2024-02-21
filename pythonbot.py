@@ -14,6 +14,18 @@ print("you've got a nice gender. I am a", gender)
 hate = input("what do you hate the most? ")
 
 print("I hate", hate, "too")
+job = input("What do you do for a living? ")
+
+print("Wow, being a", job, "sounds interesting.")
+hobby = input("What's your favorite hobby? ")
+
+print("That's cool! I like", hobby, "too.")
+favorite_food = input("What's your favorite food? ")
+
+print(favorite_food, "sounds delicious!")
+dream = input("What's your biggest dream? ")
+
+print("That's a beautiful dream!", dream)
 print("it's really nice to talk to ya, let's talk more")
 
 while True:
@@ -73,10 +85,4 @@ while True:
         else:
             print("that is not a number bro please try again")  
     except ValueError:
-        print("that is not a number bro please try again")
-
-        
-
-
-
-        
+        print("that is not a number bro please try again")
